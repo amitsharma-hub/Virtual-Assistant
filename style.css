@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Double+Ink:wght@100..900&family=Bitcount+Prop+Single:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to right, rgb(12, 12, 39), black,
+            rgb(12, 12, 39));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 22px;
+}
+
+#logo {
+    width: 25vw;
+    padding-top: 20px;
+    border-radius: 20%;
+}
+
+h1 {
+    color: #a09999;
+}
+
+#Ro {
+    color: rgb(41 183 240 / 51%);
+    font-size: 40px;
+}
+
+#va {
+    color: rgb(112 49 186 / 66%);
+    font-size: 40px;
+}
+
+#voice {
+    width: 170px;
+    display: none;
+}
+
+#btn {
+    color: white;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 18px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    gap: 16px;
+    background: linear-gradient(to right, rgb(70, 99, 70),
+            rgb(47, 47, 88));
+    box-shadow: 0px 0px 10px rgb(72, 116, 72), 0px 0px 10px rgb(61, 75, 135);
+    transition: all 0.3s;
+}
+
+#btn:hover {
+    box-shadow: 0px 0px 20px rgb(72, 116, 72), 0px 0px 20px rgb(61, 75, 135);
+    letter-spacing: 2px;
+}
