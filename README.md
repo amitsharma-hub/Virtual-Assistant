@@ -4,6 +4,12 @@ An intelligent AI-powered Virtual Assistant built using **HTML, CSS, and JavaScr
 
 ---
 
+🚀 Live Demo
+
+Live Website: [amit-streaming-website.netlify.app](https://amit-virtual-assistant.netlify.app/)
+
+---
+
 ## 🚀 Features
 
 - 🎤 Voice Recognition (Speech-to-Text)
